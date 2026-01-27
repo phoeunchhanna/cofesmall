@@ -26,7 +26,7 @@ const SocialFloatingButtons = () => {
     ];
 
     return (
-        <div className="fixed top-20 right-4 z-40 flex flex-col gap-3 md:hidden">
+        <div className="fixed bottom-4 right-4 z-40 flex flex-col gap-3 md:hidden">
             {socialLinks.map((social) => (
                 <a
                     key={social.name}
