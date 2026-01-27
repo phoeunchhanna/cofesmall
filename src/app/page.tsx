@@ -34,7 +34,7 @@ export default function Home() {
     };
 
     const handleError = (error: GeolocationPositionError) => {
-      console.error("Error getting location:", error);
+      console.warn("Error getting location:", error);
       setLocationStatus("denied");
       if (error.code === error.PERMISSION_DENIED) {
         setErrorMsg("status.permission_denied_msg");
