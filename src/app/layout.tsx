@@ -19,7 +19,7 @@ const battambang = Battambang({
 });
 
 export const metadata: Metadata = {
-  title: "BuyCofe - Phearsok Coffee",
+  title: "CofeSmall - Phearsok Coffee",
   description: "Premium Coffee & Drinks",
 };
 
